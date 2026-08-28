@@ -1,0 +1,21 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Mobile Ads & Monetization",
+      "description": "Deterministic mobile monetization, ad orchestration, and paywall guards.",
+      "skills": [
+        "opinionated-mobile-ads",
+        "mobile-ads-monetization"
+      ]
+    },
+    {
+      "title": "UI & Design Direction",
+      "description": "High-conviction creative and design direction from committed concepts.",
+      "skills": [
+        "concept-ui-director"
+      ]
+    }
+  ]
+}
