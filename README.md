@@ -31,17 +31,29 @@ Compatible with the [`skills`](https://skills.sh) CLI ecosystem across AI coding
 - High-conviction visual design systems, hero moments, and experience arcs.
 - Direct execution handoffs to implementation agents and the `agy` CLI without design dilution.
 
+[![skills.sh](https://skills.sh/b/shahid0/opinionated-skills)](https://skills.sh/shahid0/opinionated-skills)
+
 ---
 
 ## 🚀 Installation via `skills.sh`
 
-Install individual skills using the `skills` CLI:
+Install skills directly into your agent environment using the `skills` CLI:
 
+### Install interactively (choose skills)
 ```bash
-# Install a specific skill from this repository
-npx skills add <owner>/<repo>/mobile-ads-monetization
-npx skills add <owner>/<repo>/opinionated-mobile-ads
-npx skills add <owner>/<repo>/concept-ui-director
+npx skills add shahid0/opinionated-skills
+```
+
+### Install a specific skill
+```bash
+npx skills add shahid0/opinionated-skills --skill mobile-ads-monetization
+npx skills add shahid0/opinionated-skills --skill opinionated-mobile-ads
+npx skills add shahid0/opinionated-skills --skill concept-ui-director
+```
+
+### Install all skills at once
+```bash
+npx skills add shahid0/opinionated-skills --all
 ```
 
 ---
